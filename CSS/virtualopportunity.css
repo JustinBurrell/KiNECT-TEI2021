@@ -1,0 +1,334 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #56CCF2;
+}
+
+#navbar {
+    background-color: #56CCF2;
+    position: sticky;
+    top: 0;
+}
+
+#navbar_options { 
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: rgb(0, 0, 0) solid 2px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+#navbar_title {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+li {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+.bar a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    height: 100px;
+    color: white;
+}
+
+.bar a:hover {
+    /* opacity: 0.5; */
+    border-top: 4px solid #FDB927;
+}
+
+#mainsection {
+    margin: 5px;
+    padding: 5px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#buttons button {
+    background-color: #FDB927; /* Green */
+    border: none;
+    border-radius: 40px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.row {
+    width: 400px;
+    height: 200px;
+    background-color: #008CBA;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 3px solid black;
+    color: #f6f7f9;
+    margin-left: 50px;
+}
+
+.row:hover {
+    opacity: 0.5;
+}
+
+.rowText {
+    text-align: center;
+    font-size: 20px;
+}
+
+.rowTitle {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#gridInfo {
+    display: none;
+}
+
+#experienceform {
+    display: none;
+}
+
+#experienceform h1{
+    color: #FDB927;
+    font-weight: bolder;
+}
+
+#gridHead {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #FDB927;
+    text-align: center;
+}
+
+#gridHead h1{
+    padding: 200px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 80px;
+}
+
+#gridDes{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#filtercontents {
+    margin-top: 5px;
+}
+
+#filterbuttons {
+    margin-left: 10px;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+#gridInfoButton {
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.gridInfoButtons {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FDB927;
+    padding: 20px;
+    margin: 20px;
+}
+  
+#backBtn:hover {
+    background-color: #663399;
+    color: white;
+}   
+
+#backBtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FDB927;
+    padding: 20px;
+    margin: 20px;
+}
+  
+.gridInfoButtons:hover {
+    background-color: #FDB927;
+    color: white;
+}                    
+
+#experienceBtns {
+    display: flex;
+}
+
+#communityserviceBtn {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#communityserviceBtn button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FDB927;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#communityserviceBtn button:hover {
+    background-color: #FDB927;
+    color: white;
+}   
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #f6f7f9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f6f7f9;
+  }
+  
+  /* Style the container/contact section */
+  #experienceform {
+    border-radius: 5px;
+    background-color: #56CCF2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  .name {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #FDB927;
+    padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .name:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
