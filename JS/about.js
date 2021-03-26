@@ -21,7 +21,7 @@ images[0].onclick = function(){
 //hover functions for image 2
 images[1].onmouseover = function(){
     images[1].style.opacity = "0.5";
-    imagesText[1].innerHTML = "Herbet Toler";
+    imagesText[1].innerHTML = "Herbert Toler";
 }
 
 images[1].onmouseout = function(){

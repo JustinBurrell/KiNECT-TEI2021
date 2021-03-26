@@ -65,6 +65,14 @@ li {
     margin-bottom: 30px;
 }
 
+#title p{
+    font-size: 25px;
+}
+
+#header {
+    font-size: 45px;
+}
+
 #buttons button {
     background-color: #FDB927; /* Green */
     border: none;
@@ -120,6 +128,11 @@ li {
 #experienceform h1{
     color: #FDB927;
     font-weight: bolder;
+    font-size: 60px;
+}
+
+#experienceform p{
+    font-size: 25px;
 }
 
 #gridHead {
@@ -143,7 +156,7 @@ li {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #filtercontents {

@@ -13,13 +13,3 @@ kinectlogo.onclick = function(){
     slogan.style.display = "block";
     kinectlogo.style.display = "none";
 }
-
-// for(let i=0; i<opportunity.length; i++){
-//     opportunity[i].onmouseover = function(){
-//         opportunity[i].style.backgroundColor = "#FDB927"        
-//     }
-        
-//     opportunity[i].onmouseout = function(){
-//         opportunity[i].style.backgroundColor = "#56CCF2"
-//     }
-// }
