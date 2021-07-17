@@ -9,26 +9,26 @@
     <script src="/JS/login.js" defer></script>
     <link rel="stylesheet" href="/CSS/login.css">
 
-    <title>Welcome to KiNECT</title>
+    <title>Login</title>
 </head>
 <body>
     <!-- navbar -->
     <div id= "navbar">           
         <ul id="navbar_options">
             <li id="navbutton" class="bar">
-                <a href="/HTML/about.html">About</a>
-            </li>
-            <li id="navbutton" class="bar">
-                <a href="/HTML/register.html" >Register</a>
-            </li>
-            <li id="navbutton" class="bar">
-                <a href="/index.html" >Home</a>
+                <a id='homelogo' href="/"><img src="images/shortlogo.jpg"></a>
             </li> 
             <li id="navbutton" class="bar">
-                <a href="/HTML/account.html">Account</a>
+                <a href="/about">About</a>
+            </li>
+            <li id="navbutton" class="bar">
+                <a href="/register" >Register</a>
+            </li>
+            <li id="navbutton" class="bar">
+                <a href="/account">Account</a>
             </li> 
             <li id="navbutton" class="bar">
-                <a href="" >Community</a>
+                <a id= 'communityTab' href="" >Community</a>
             </li> 
         </ul>
     </div>
@@ -41,14 +41,14 @@
             </div>
             <div class="row">
               <div class="column">
-            <p>Don't have an account? <a href ="/HTML/register.html">sign up today!</a></p>
+            <p>Don't have an account? <a href ="/register">sign up today!</a></p>
                 <form>
                   <label for="fname">Username</label>
                   <input type="text" id="fname" name="firstname" placeholder="Username">
                   <label for="fname">Password</label>
                   <input type="text" id="fname" name="firstname" placeholder="Password">
                 </form>
-                <a href= "account.html"><button id="button">Enter</button></a>
+                <a href= "/account"><button id="button">Enter</button></a>
               </div>
             </div>
         </div>

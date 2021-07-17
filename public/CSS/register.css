@@ -55,82 +55,58 @@ li {
     border-top: 4px solid #FDB927;
 }
 
-#mainsection {
-    margin: 5px;
-    padding: 5px;
+#welcome {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
-#welcometext h1 {
-    text-shadow: 4px 4px grey;
-    font-weight: 200;
+#welcome h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 45px;
 }
 
-#section {
-  text-align: center;
-  background-color: #FDB927;
-  border: #FDB927 solid 2.5px;
-  border-radius: 15px;
-  text-align: center;
-  justify-content: center;
-  padding: 20px;
-  margin-bottom: 40px;
+#welcome p{
+    text-align: center;
+    font-size: 25px;
 }
 
 .header {
-    text-align: center;
-    font-size: 43px;
+  font-size: 35px;
 }
 
-.maintext {
-  font-size: 23px;
-}
-
-#funfact h1{
-  font-size: 43px;
-}
-
-#funfact p{
-  font-size: 23px;
-}
-
-#font {
-  font-size: 23px;
-}
-
-#funfact {
-    text-align: center;
-    background-color: #FDB927;
-    border: #FDB927 solid 2.5px;
-    border-radius: 15px;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-#bigsection {
-    margin-bottom: 40px;
-
-}
-
-#bigsection li {
-    font-size: 20px;
-}
-
-#photogallery{
+#buttons {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
-.innergallery {
-  font-weight: bold;
-  font-size: 30px;
-}
+.option {
+    /* background-color: #008CBA; Green */
+    border: none;
+    color: white;
+    padding: 100px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FDB927;
+    cursor: pointer;
+  }
+  
+  .option:hover {
+    background-color: #FDB927;
+    color: white;
+  }
 
-#galleryOne{
-    flex-direction: row;
+#mainsection {
+    margin: 5px;
+    padding: 5px;
 }
 
 /* Style inputs */
@@ -167,7 +143,6 @@ input[type=text], select, textarea {
     margin-top: 6px;
     padding: 20px;
   }
-
   .row {
     margin: auto;
     width: 50%;
@@ -196,36 +171,29 @@ input[type=text], select, textarea {
     background-color: #FDB927;
   }
 
-  .imagesText {
-    text-align: center;
+
+  .backBtn {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
     justify-content: center;
   }
-
-  #image1{
-    width: 300px;
-    height: 300px;
-    background-image: url(/images/justin.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 25px;
-    text-align: center;
-    border: 3px solid black;
-    color: #f6f7f9;
+    
+  .backBtn:hover {
+    background-color: #FDB927;
   }
 
-  #image3{
-    width: 300px;
-    height: 300px;
-    background-image: url(/images/herbert.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 25px;
-    text-align: center;
-    border: 3px solid black;
-    color: #f6f7f9;
+  #homelogo {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 2px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
   }
 
-
-
-
-
+  #communityTab{
+    color:gray;
+}

@@ -148,5 +148,14 @@ li {
     padding: 30px 100px;
     margin: 20px;
 }
-
-
+#homelogo {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 2px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+#communityTab{
+    color:gray;
+}

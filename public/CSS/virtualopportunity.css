@@ -254,7 +254,7 @@ li {
 }
   
 #backBtn:hover {
-    background-color: #663399;
+    background-color: #FDB927;
     color: white;
 }   
 
@@ -337,6 +337,7 @@ input[type=text], select, textarea {
     width: 50%;
     border: 3px solid #FDB927;
     padding: 10px;
+    background-color: #FDB927
   }
 
   /* Clear floats after the columns */
@@ -345,3 +346,16 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+
+  #homelogo {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 2px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+  }
+
+  #communityTab{
+    color:gray;
+}
